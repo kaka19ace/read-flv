@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-#  Copyright (c) 2013 Zhong Kaixiang
+#  Copyright (c) 2014 Zhong Kaixiang
 #
 #  This file is simple parser for flv file 
 #
@@ -278,6 +278,7 @@ print 'typeflags_video:   ', header_info['typeflags_video']
 print 'data_offset: ', header_info['data_offset']
 print '-------------------------------'
 
+sys.exit(1)
 
 count = 13
 flvtag_index = 1
