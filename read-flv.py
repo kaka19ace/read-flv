@@ -278,7 +278,6 @@ print 'typeflags_video:   ', header_info['typeflags_video']
 print 'data_offset: ', header_info['data_offset']
 print '-------------------------------'
 
-sys.exit(1)
 
 count = 13
 flvtag_index = 1
